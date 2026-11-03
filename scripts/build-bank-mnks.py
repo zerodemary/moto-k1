@@ -19,6 +19,7 @@ def chap(stem):
     return '道路通行条件及通行规定'
 codes_nat=re.search(r'ExamCodes = "([^"]+)',open(f'{R}/ybjk/codes_sxlx.js').read()).group(1).split(',')
 codes_zj=re.search(r'ExamCodes = "([^"]+)',open(f'{R}/codes_jsyks_zj_pcaonly33.js').read()).group(1).split(',')
+FILL=json.load(open(f'{R}/fill/fill.json'))
 out=[];missing_img=[];absent=[];matched_old=set();diff_ans=[];new=[]
 for code in codes_nat+codes_zj:
     p=f'{R}/ybjk/raw/{code}.json'
@@ -40,6 +41,7 @@ for code in codes_nat+codes_zj:
         if d['tp'] and o.get('image'): q['image']=o['image']
         if not q['explanation']: q['explanation']=o['explanation']
     else: new.append(code)
+    if d['tp'] and 'image' not in q and code in FILL: q.update(FILL[code])
     if d['tp'] and 'image' not in q:
         missing_img.append({'code':code,'tp':d['tp'],'url':'https://tkimg.mnks.cn/i/'+d['tp'].rsplit('.',1)[0]+'.webp/ybjk','stem':stem}); continue
     q['source']=f"https://www.ybjk.com/tiku/{code}.htm"

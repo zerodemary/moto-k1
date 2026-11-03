@@ -2,7 +2,7 @@
  "version": "mnks-2026103002",
  "name": "摩托车科目一（全国题 + 浙江地方题）",
  "source": "元贝驾考/驾校一点通(jsyks) 公开网页 tkdata.mnks.cn，题库版本 2026103002，抓取于 2026-11-03",
- "count": 704,
+ "count": 757,
  "questions": [
   {
    "id": "yb-bb0e5",
@@ -1195,6 +1195,21 @@
    "source": "https://www.ybjk.com/tiku/d0e2d.htm"
   },
   {
+   "id": "yb-a3707",
+   "type": "judge",
+   "stem": "驾驶证准驾车型代号为E的，可以驾驶下图所示车辆。",
+   "options": [
+    "正确",
+    "错误"
+   ],
+   "answer": 0,
+   "explanation": "普通二轮摩托车的车型代号为E，准驾：普通二轮摩托车和F轻便摩托车，图中所示的是普通二轮摩托车，因此选正确。",
+   "chapter": "驾驶证和机动车管理规定",
+   "image": "img/yb-a3707.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/a3707.htm"
+  },
+  {
    "id": "yb-d19d7",
    "type": "judge",
    "stem": "持有驾驶证但身体条件不适合驾驶机动车的，会被注销驾驶证。",
@@ -1485,6 +1500,21 @@
    "explanation": "根据《机动车驾驶证申领和使用规定》 持有第三款规定以外准驾车型驾驶证的驾驶人，发生交通事故造成人员死亡承担同等以上责任未被吊销机动车驾驶证的，应当在本记分周期结束后三十日内到公安机关交通管理部门接受审验。",
    "chapter": "道路交通事故处理相关规定",
    "source": "https://www.ybjk.com/tiku/c987d.htm"
+  },
+  {
+   "id": "yb-f7ef4",
+   "type": "judge",
+   "stem": "驾驶证准驾车型代号为D的，可以驾驶下图所示车辆。",
+   "options": [
+    "正确",
+    "错误"
+   ],
+   "answer": 0,
+   "explanation": "准驾车型代号为D的驾驶证准驾车型为普通三轮摩托车、E（普通二轮摩托车）和 F（轻便摩托车）。图中所示车辆明确标注为普通三轮摩托车。持有准驾车型代号为 “D” 的驾驶证，按照规定是可以驾驶此类车辆的。",
+   "chapter": "驾驶证和机动车管理规定",
+   "image": "img/yb-f7ef4.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/f7ef4.htm"
   },
   {
    "id": "yb-c3fe9",
@@ -2215,6 +2245,21 @@
    "source": "https://www.ybjk.com/tiku/d2096.htm"
   },
   {
+   "id": "yb-a0482",
+   "type": "judge",
+   "stem": "图中亮起的交通信号灯表示准许通行。",
+   "options": [
+    "正确",
+    "错误"
+   ],
+   "answer": 0,
+   "explanation": "机动车信号灯（圆形信号灯）有红、黄、绿三种颜色。 绿灯亮时，准许车辆通行，但转弯的车辆不得妨碍被放行的直行车辆、行人通行。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-a0482.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/a0482.htm"
+  },
+  {
    "id": "yb-d6656",
    "type": "judge",
    "stem": "不得驾驶具有安全隐患的机动车上道路行驶。",
@@ -2226,6 +2271,21 @@
    "explanation": "根据《道路交通安全法》的相关规定：驾驶人驾驶机动车上道路行驶前，应当对机动车的安全技术性能进行认真检查；不得驾驶安全设施不全或者机件不符合技术标准等具有安全隐患的机动车。\n因此，禁止驾驶具有安全隐患的机动车上路，是法律赋予每一位驾驶人的强制性义务。",
    "chapter": "驾驶证和机动车管理规定",
    "source": "https://www.ybjk.com/tiku/d6656.htm"
+  },
+  {
+   "id": "yb-a8129",
+   "type": "judge",
+   "stem": "如图所示，驾驶摩托车右转弯时应当注意礼让行人，不得妨碍行人正常通行。",
+   "options": [
+    "正确",
+    "错误"
+   ],
+   "answer": 0,
+   "explanation": "摩托右转让行人，文明驾驶保安全。如图所示， 绿灯亮时，准许车辆通行，但转弯的车辆不得妨碍被放行的直行车辆、行人通行，因此右转弯时应当注意礼让行人，不得抢行或绕行。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-a8129.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/a8129.htm"
   },
   {
    "id": "yb-d6f28",
@@ -2241,6 +2301,21 @@
    "source": "https://www.ybjk.com/tiku/d6f28.htm"
   },
   {
+   "id": "yb-ae010",
+   "type": "judge",
+   "stem": "如图所示，驾驶摩托车遇到前方车辆停车排队等候或缓慢行驶时，应依次行驶，不得超车。",
+   "options": [
+    "正确",
+    "错误"
+   ],
+   "answer": 0,
+   "explanation": "驾驶车辆遇到前方车辆行进缓慢或道路、路口因故堵塞时，应减速或停车，依次缓慢行驶或耐心排队等待。即便是绿灯亮，也要依次停在路口外等候，不得超车，不得进入路口或停在路口内等候，以免加剧阻塞或被夹在路口内进退两难。\n《道路交通安全法》第四十五条：机动车遇有前方车辆停车排队等候或者缓慢行驶时，不得借道超车或者占用对面车道，不得穿插等候的车辆。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-ae010.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/ae010.htm"
+  },
+  {
    "id": "yb-dad0c",
    "type": "judge",
    "stem": "已经达到报废标准的机动车经大修后可以上路行驶。",
@@ -2252,6 +2327,21 @@
    "explanation": "该表述完全错误，是法律法规明确绝对禁止的行为。根据《道路交通安全法》的规定：达到报废标准的机动车不得上道路行驶。……应当将报废的机动车登记证书、号牌、行驶证交公安机关交通管理部门注销。\n因此，一旦机动车达到国家强制报废标准，无论经过何种修理或翻新，其法律身份已终结，都严禁再上道路行驶。",
    "chapter": "驾驶证和机动车管理规定",
    "source": "https://www.ybjk.com/tiku/dad0c.htm"
+  },
+  {
+   "id": "yb-aed37",
+   "type": "judge",
+   "stem": "如图所示，驾驶摩托车遇前方交叉路口堵塞时，应依次停在路口外等候，不得在人行横道、网状线区域停车等候。",
+   "options": [
+    "正确",
+    "错误"
+   ],
+   "answer": 0,
+   "explanation": "遇有路口堵塞时，即便是绿灯亮，也要依次在路口外停车等待，不得进入路口或停在路口内等候，以免加剧阻塞或被夹在路口内进退两难。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-aed37.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/aed37.htm"
   },
   {
    "id": "yb-d9eac",
@@ -2267,6 +2357,21 @@
    "source": "https://www.ybjk.com/tiku/d9eac.htm"
   },
   {
+   "id": "yb-eb1c0",
+   "type": "judge",
+   "stem": "如图所示，驾驶摩托车通过有交通信号灯控制的交叉路口，遇停止信号时，应依次停在停止线以外。",
+   "options": [
+    "正确",
+    "错误"
+   ],
+   "answer": 0,
+   "explanation": "路口红灯（停止信号）时，机动车（含摩托车）应当依次停在停止线以外，不能越过停止线进入路口。停止线就是路口白色实线，车辆要在线后等候放行信号。题干说法符合通行规则。\n【拓展知识】停止线以外＝来车方向一侧，没有越过停止线；停止线以内＝越过停止线，进入路口。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-eb1c0.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/eb1c0.htm"
+  },
+  {
    "id": "yb-fb538",
    "type": "judge",
    "stem": "服用国家管制的精神药品可以短途驾驶机动车。",
@@ -2278,6 +2383,21 @@
    "explanation": "《道路交通安全法》第二十二条规定：饮酒、服用国家管制的精神药品或者麻醉药品，或者患有妨碍安全驾驶机动车的疾病，或者过度疲劳影响安全驾驶的，不得驾驶机动车。",
    "chapter": "道路通行条件及通行规定",
    "source": "https://www.ybjk.com/tiku/fb538.htm"
+  },
+  {
+   "id": "yb-d7376",
+   "type": "judge",
+   "stem": "如图所示，通过有交通信号灯控制的交叉路口，准备进入环形路口的让已在路口内的机动车先行。",
+   "options": [
+    "正确",
+    "错误"
+   ],
+   "answer": 0,
+   "explanation": "进环路口要让行，已在环内车先行。通过有交通信号灯控制的环形交叉路口时，准备进入环形路口的，注意观察左侧已在环岛内行驶车辆的动态，让已在路口内的机动车先行。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-d7376.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/d7376.htm"
   },
   {
    "id": "yb-efe0a",
@@ -2356,6 +2476,21 @@
    "explanation": "当在路口遇到交通信号灯和交通警察指挥不一致的情况时，应当按照交通警察的指挥通行。因为交通警察可以根据现场的实际交通状况进行灵活指挥，以保障交通的顺畅和安全。交通信号灯是固定设置的，无法像交警那样根据实时情况进行灵活调整。",
    "chapter": "道路通行条件及通行规定",
    "source": "https://www.ybjk.com/tiku/d8125.htm"
+  },
+  {
+   "id": "yb-df776",
+   "type": "judge",
+   "stem": "驾驶机动车不能进入红色叉形灯或者红色箭头灯亮的车道。",
+   "options": [
+    "正确",
+    "错误"
+   ],
+   "answer": 0,
+   "explanation": "《道路交通安全法实施条例》第四十条 车道信号灯表示：(一)绿色箭头灯亮时，准许本车道车辆按指示方向通行；(二)红色叉形灯或者箭头灯亮时，禁止本车道车辆通行。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-df776.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/df776.htm"
   },
   {
    "id": "yb-ba1fc",
@@ -2748,6 +2883,40 @@
    "source": "https://www.ybjk.com/tiku/c0c87.htm"
   },
   {
+   "id": "yb-ad88c",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "T形交叉路口",
+    "Y形交叉路口",
+    "十字交叉路口",
+    "环形交叉路口"
+   ],
+   "answer": 2,
+   "explanation": "十字交叉路口：警告前方道路有十字交叉路口，应谨慎慢行，注意横向车辆。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-ad88c.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/ad88c.htm"
+  },
+  {
+   "id": "yb-dbc15",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "T形交叉路口",
+    "Y形交叉路口",
+    "十字交叉路口",
+    "环形交叉路口"
+   ],
+   "answer": 0,
+   "explanation": "T形交叉路口：警告前方道路有与上述图形相符的T形交叉路口，应谨慎慢行，注意横向车辆。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-dbc15.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/dbc15.htm"
+  },
+  {
    "id": "yb-eb407",
    "type": "single",
    "stem": "这个标志是何含义？",
@@ -2778,6 +2947,40 @@
    "chapter": "道路通行条件及通行规定",
    "image": "img/10019900.jpg",
    "source": "https://www.ybjk.com/tiku/c4c52.htm"
+  },
+  {
+   "id": "yb-ec3b3",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "N型弯路",
+    "急转弯路",
+    "反向弯路",
+    "连续弯路"
+   ],
+   "answer": 2,
+   "explanation": "反向弯路：警告前方道路连续有两个方向相反的急弯路，应减速慢行。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-ec3b3.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/ec3b3.htm"
+  },
+  {
+   "id": "yb-e2968",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "N型弯路",
+    "急转弯路",
+    "反向弯路",
+    "连续弯路"
+   ],
+   "answer": 3,
+   "explanation": "连续弯路：警告前方道路有连续三个或三个以上的方向相反的弯路，应减速慢行。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-e2968.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/e2968.htm"
   },
   {
    "id": "yb-c55e2",
@@ -2940,6 +3143,23 @@
    "source": "https://www.ybjk.com/tiku/add03.htm"
   },
   {
+   "id": "yb-bee6f",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "注意行人",
+    "有人行横道",
+    "村庄或集镇",
+    "有小学校"
+   ],
+   "answer": 2,
+   "explanation": "村庄：提醒前方是紧靠村庄、集镇且视线不良的路段，应小心驾驶。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-bee6f.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/bee6f.htm"
+  },
+  {
    "id": "yb-d39a2",
    "type": "single",
    "stem": "这个标志是何含义？",
@@ -2954,6 +3174,23 @@
    "chapter": "道路通行条件及通行规定",
    "image": "img/10021300.jpg",
    "source": "https://www.ybjk.com/tiku/d39a2.htm"
+  },
+  {
+   "id": "yb-d380c",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "路面低洼",
+    "驼峰桥",
+    "路面不平",
+    "减速丘"
+   ],
+   "answer": 3,
+   "explanation": "",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-d380c.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/d380c.htm"
   },
   {
    "id": "yb-f2e48",
@@ -3164,6 +3401,23 @@
    "source": "https://www.ybjk.com/tiku/d59e0.htm"
   },
   {
+   "id": "yb-a50e7",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "禁止在路口掉头",
+    "禁止向左向右变道",
+    "禁止车辆直行",
+    "禁止向左和向右转弯"
+   ],
+   "answer": 3,
+   "explanation": "禁止向左向右转弯：前方路口禁止一切车辆向左向右转弯。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-a50e7.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/a50e7.htm"
+  },
+  {
    "id": "yb-ba7ac",
    "type": "single",
    "stem": "这个标志是何含义？",
@@ -3242,6 +3496,40 @@
    "chapter": "道路通行条件及通行规定",
    "image": "img/10023500.jpg",
    "source": "https://www.ybjk.com/tiku/fc9d0.htm"
+  },
+  {
+   "id": "yb-a0892",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "允许长时停车",
+    "允许临时停车",
+    "禁止车辆长时停放",
+    "禁止车辆停放"
+   ],
+   "answer": 3,
+   "explanation": "禁止车辆停放：表示在限定的范围内，禁止一切车辆停、放，无论驾驶人是否离开车辆。设在禁止车辆停、放的地方，标志颜色为蓝底 、红圈、红斜杠。禁止车辆停放的时段、车种和范围可用辅助标志说明。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-a0892.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/a0892.htm"
+  },
+  {
+   "id": "yb-a7ae9",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "允许长时停车",
+    "禁止临时停车",
+    "禁止车辆长时停放",
+    "禁止停放车辆"
+   ],
+   "answer": 2,
+   "explanation": "禁止车辆长时停放：表示在限定的范围内，禁止一切车辆长时停、放，临时停放不受限制。设在禁止车辆长时停、放的地方，标志颜色为蓝底 、红圈、红斜杠。临时停放指车辆停车上下客或装卸货等，且驾驶人在车内或车旁守候。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-a7ae9.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/a7ae9.htm"
   },
   {
    "id": "yb-db847",
@@ -3402,6 +3690,40 @@
    "chapter": "道路通行条件及通行规定",
    "image": "img/10024700.jpg",
    "source": "https://www.ybjk.com/tiku/e7261.htm"
+  },
+  {
+   "id": "yb-c28c7",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "靠道路右侧停车",
+    "只准向右转弯",
+    "右侧是下坡路段",
+    "分隔带右侧行驶"
+   ],
+   "answer": 3,
+   "explanation": "分隔带右侧行驶：前方路段一切车辆只准靠右侧行驶。\n\n分隔带左侧行驶：前方路段一切车辆只准靠左侧行驶。\n【拓展延伸】指示标志，箭头指哪往哪走。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-c28c7.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/c28c7.htm"
+  },
+  {
+   "id": "yb-fc982",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "分隔带左侧行驶",
+    "只准向左转弯",
+    "左侧是下坡路段",
+    "靠道路左侧停车"
+   ],
+   "answer": 0,
+   "explanation": "分隔带左侧行驶：前方路段一切车辆只准靠左侧行驶。\n\n分隔带右侧行驶：前方路段一切车辆只准靠右侧行驶。\n【拓展延伸】指示标志，箭头指哪往哪走。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-fc982.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/fc982.htm"
   },
   {
    "id": "yb-a0d3f",
@@ -5417,6 +5739,40 @@
    "source": "https://www.ybjk.com/tiku/8fb12.htm"
   },
   {
+   "id": "yb-a1299",
+   "type": "single",
+   "stem": "这个标志是什么？",
+   "options": [
+    "禁止非机动车进入",
+    "禁止人力车进入",
+    "禁止电动自行车进入",
+    "禁止三轮车驶入"
+   ],
+   "answer": 2,
+   "explanation": "根据国标《道路交通标志和标线》（GB 5768），该标志为“禁止电动自行车进入”的禁令标志。红色圆圈表示禁令，图案中带有电池箱且保留脚踏结构的自行车，是电动自行车的专属标识。\n【拓展知识-易混标志】普通自行车图案（无电池组）→ 禁止非机动车进入；带电池箱 + 脚踏的自行车 → 禁止电动自行车进入；无脚踏、带骑手的摩托车 → 禁止摩托车驶入。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-a1299.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/a1299.htm"
+  },
+  {
+   "id": "yb-cb1aa",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "注意行人",
+    "人行横道",
+    "注意儿童",
+    "学校区域"
+   ],
+   "answer": 2,
+   "explanation": "两个小孩的图案，是注意儿童警告标志，用以警告车辆驾驶人减速慢行，注意儿童。标志底色宜采用荧光黄绿色。设在小学、幼儿园、少年宫等儿童经常出入地点前适当位置，可用辅助标志说明设置此标志原因。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-cb1aa.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/cb1aa.htm"
+  },
+  {
    "id": "yb-a3dac",
    "type": "single",
    "stem": "这个标志是何含义？",
@@ -5431,6 +5787,108 @@
    "chapter": "道路通行条件及通行规定",
    "image": "img/15490700.jpg",
    "source": "https://www.ybjk.com/tiku/a3dac.htm"
+  },
+  {
+   "id": "yb-f7c66",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "无障碍设施",
+    "注意残疾人",
+    "残疾人专用通道",
+    "残疾人出入口"
+   ],
+   "answer": 1,
+   "explanation": "警告标志-注意残疾人，用以警告车辆驾驶人减速慢行，注意残疾人。标志底色可采用荧光黄绿色。设置康复医院、残疾人学校等残疾人经常出入地点前适当位置。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-f7c66.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/f7c66.htm"
+  },
+  {
+   "id": "yb-f24f5",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "非机动车推行",
+    "注意电动自行车",
+    "禁止电动自行车通行",
+    "电动自行车行驶"
+   ],
+   "answer": 1,
+   "explanation": "黄底黑边三角形标志里有电动自行车，是警告标志-注意电动自行车，用以提醒车辆驾驶人谨慎驾驶，注意电动自行车。设在有电动自行车经常出入的地点前适当位置。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-f24f5.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/f24f5.htm"
+  },
+  {
+   "id": "yb-f40b2",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "非机动车推行",
+    "注意电动自行车",
+    "禁止电动自行车通行",
+    "电动自行车行驶"
+   ],
+   "answer": 3,
+   "explanation": "圆形蓝底内有电动自行车，是指示标志-电动自行车行驶，表示该道路仅供电动自行车通行。设在该道路的起点及各交叉口的入口处。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-f40b2.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/f40b2.htm"
+  },
+  {
+   "id": "yb-c9817",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "非机动车车道",
+    "禁止电动自行车通行车道",
+    "电动自行车车道",
+    "停放电动自行车路段"
+   ],
+   "answer": 2,
+   "explanation": "【矩形蓝底、两侧虚线，中间是什么车型就指示什么车道】指示标志-电动自行车车道，表示该车道仅供电动自行车通行。设在该车道的起点及各交叉口的入口处。设置在车道正上方时，向下的箭头可以省略；在标志无法正对车道时，可调整箭头方向，指向车道。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-c9817.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/c9817.htm"
+  },
+  {
+   "id": "yb-edf57",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "行人",
+    "电动自行车行驶",
+    "非机动车行驶",
+    "非机动车推行"
+   ],
+   "answer": 3,
+   "explanation": "圆形蓝底白图形指示标志-非机动车推行，表示该道路仅供非机动车推行，不准骑行。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-edf57.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/edf57.htm"
+  },
+  {
+   "id": "yb-ca7e3",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "注意横风",
+    "风向标",
+    "隧道入口",
+    "气象台"
+   ],
+   "answer": 0,
+   "explanation": "注意横风标志：用以提醒车辆驾驶人谨慎驾驶，注意横风。设在经常有很强的侧向风的路段前适当位置。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-ca7e3.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/ca7e3.htm"
   },
   {
    "id": "yb-f61fa",
@@ -5511,6 +5969,21 @@
    "source": "https://www.ybjk.com/tiku/d535c.htm"
   },
   {
+   "id": "yb-a0b1e",
+   "type": "judge",
+   "stem": "图中亮起的交通信号灯表示禁止通行。",
+   "options": [
+    "正确",
+    "错误"
+   ],
+   "answer": 0,
+   "explanation": "红灯停，绿灯行，黄灯亮了等一等。图中亮起的是红灯，交通信号灯中红灯表示禁止通行。当红灯亮起时，无论是机动车、非机动车还是行人都不应该通过路口，应该在停止线后等待。这是为了确保交通的有序和安全，避免不同方向的车辆和行人发生冲突。如果在红灯时通行，很容易引发交通事故，并且会破坏交通秩序。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-a0b1e.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/a0b1e.htm"
+  },
+  {
    "id": "yb-d17ba",
    "type": "judge",
    "stem": "驾驶机动车通过交叉路口要遵守交通信号。",
@@ -5535,6 +6008,23 @@
    "explanation": "泥泞路路面特别松软、粘稠，车辆行驶阻力大且车轮易滑转、侧滑。因此行至泥泞或翻浆路段时，要停车察看路况，尽量选择平整、坚实或有车辙的路段通过。一般选用中低速档位行车，握稳转向盘，稳住加速踏板匀速一次性通过，尽量避免使用行车制动器，以防整车滑移。",
    "chapter": "道路通行条件及通行规定",
    "source": "https://www.ybjk.com/tiku/bafd0.htm"
+  },
+  {
+   "id": "yb-f822c",
+   "type": "single",
+   "stem": "图中所示的黄色标线指的是什么?",
+   "options": [
+    "禁止长时停车线",
+    "导向车道线",
+    "禁止停车线",
+    "车行道边缘线"
+   ],
+   "answer": 2,
+   "explanation": "黄实线禁停，黄虚线限长停。题目中图片显示为道路边缘画设的黄色实线。根据《道路交通标志和标线》国家标准（GB 5768）：\n路缘黄色实线：表示该路段禁止停车，包括临时停车与长时间停车。\n路缘黄色虚线：表示该路段禁止长时间停车，但允许临时停车上下客或装卸物品。\n因此，图中黄色标线应为禁止停车线。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-f822c.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/f822c.htm"
   },
   {
    "id": "yb-e6dd9",
@@ -5589,6 +6079,57 @@
    "explanation": "根据《道路交通安全法》的相关规定：机动车通过铁路道口时，应当按照交通信号或者管理人员的指挥通行；没有交通信号或者管理人员的，应当减速或者停车，在确认安全后通过。\n因此，无论驾驶何种机动车（包括摩托车），通过有交通信号灯或管理人员指挥的铁路道口时，必须服从信号或指挥，这是强制性规定，以确保铁路和道路交通安全。",
    "chapter": "道路通行条件及通行规定",
    "source": "https://www.ybjk.com/tiku/e0d7a.htm"
+  },
+  {
+   "id": "yb-bfbad",
+   "type": "single",
+   "stem": "以下交通标志中表示掉头和左转合用车道的是？",
+   "options": [
+    "图3",
+    "图4",
+    "图2",
+    "图1"
+   ],
+   "answer": 1,
+   "explanation": "依据道路交通标志规范，图4是左转和掉头合用车道，车辆可在此车道左转或掉头。图1是左转车道，图2是右转车道，图3是直行和左转合用车道，均不符合“掉头和左转合用”的要求。\n注意：选项字母与标志编号不是一一对应的。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-bfbad.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/bfbad.htm"
+  },
+  {
+   "id": "yb-d86f0",
+   "type": "single",
+   "stem": "以下交通标志中表示注意落石的是？",
+   "options": [
+    "图1",
+    "图4",
+    "图3",
+    "图2"
+   ],
+   "answer": 3,
+   "explanation": "根据国标《道路交通标志和标线 第 2 部分：道路交通标志》（GB 5768.2-2022），图2为注意落石警告标志，通常设置于易发生落石的山体路段，提醒驾驶人注意观察、快速通过。\n而图1为村庄标志，图3为傍山险路标志，图4为隧道标志，均不符合题意。\n注意：选项中的ABCD与标志图的编号并非一一对应。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-d86f0.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/d86f0.htm"
+  },
+  {
+   "id": "yb-e5c66",
+   "type": "single",
+   "stem": "以下交通标志中表示前方为连续下坡的是？",
+   "options": [
+    "图1",
+    "图3",
+    "图4",
+    "图2"
+   ],
+   "answer": 2,
+   "explanation": "【折线连续弯，阶梯连续坡】图1是窄路标志（两侧逐渐变窄），图2是窄桥标志（中间窄、两端宽），图3是连续弯路标志，图4是连续下坡标志（图案含下坡箭头）。 \n【易错提醒】本题陷阱在于“字母选项”与“图片编号”错位设置。先锁定答案是图4→ 再选定代表图4的选项字母",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-e5c66.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/e5c66.htm"
   },
   {
    "id": "yb-ee5fd",
@@ -5718,6 +6259,91 @@
    "source": "https://www.ybjk.com/tiku/eb120.htm"
   },
   {
+   "id": "yb-d12a3",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "非机动车骑行",
+    "非机动车与行人共享空间通行",
+    "非机动车推行",
+    "非机动车与行人分开空间通行"
+   ],
+   "answer": 3,
+   "explanation": "根据GB 5768.2-2022 第 6.27 条规定，该标志是非机动车与行人分开空间通行标志。特征为：圆形、蓝底、白图案；图案内竖白线分隔开自行车与行人，双方空间独立、互不混行。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-d12a3.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/d12a3.htm"
+  },
+  {
+   "id": "yb-c26ee",
+   "type": "single",
+   "stem": "图中标志的含义是什么？",
+   "options": [
+    "挂车、半挂车驶入",
+    "禁止机动车驶入",
+    "禁止载货汽车驶入",
+    "禁止挂车、半挂车驶入"
+   ],
+   "answer": 3,
+   "explanation": "红色圆圈加斜杠是禁止标志，中间图案的是挂车、半挂车，意思就是禁止挂车、半挂车驶入。根据《道路交通标志和标线》（GB 5768.2—2022）规定，该标志属于禁止标志，表示禁止挂车、半挂车驶入。\n【拓展知识】红圈斜杠是禁止，中间啥车禁啥车。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-c26ee.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/c26ee.htm"
+  },
+  {
+   "id": "yb-cff7c",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "公交专用车道",
+    "有轨电车专用车道",
+    "快速公交系统（BRT）专用车道",
+    "多乘员车辆（HOV）专用车道"
+   ],
+   "answer": 1,
+   "explanation": "该指示标志为有轨电车专用车道，车道两侧施划虚线，图案带有车顶菱形标识的有轨电车，表示此车道仅限有轨电车通行。该标志设置在专用车道起点及路口入口处。\n【拓展知识】矩形蓝底、两侧虚线，中间是什么车型就指示什么车道。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-cff7c.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/cff7c.htm"
+  },
+  {
+   "id": "yb-afd69",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "机动车行驶",
+    "小型客车行驶",
+    "货车通行",
+    "禁止货车通行"
+   ],
+   "answer": 2,
+   "explanation": "该标志为指示标志，含义是“货车通行”。表示货车应当在该道路上行驶，其他车辆也可以在该道路上行驶。标志为圆形，采用白底、绿边、黑色图案的标准样式。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-afd69.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/afd69.htm"
+  },
+  {
+   "id": "yb-a78c7",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "加油站",
+    "超限检测站",
+    "电动汽车充电站",
+    "服务站"
+   ],
+   "answer": 2,
+   "explanation": "该标志为电动汽车充电站地点识别指路标志。特征为：蓝底白边正方形，图案为充电桩（直立）+ 右侧伸出带插头的充电线，用于指引充电站位置，通常设置在场地前方适当路段。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-a78c7.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/a78c7.htm"
+  },
+  {
    "id": "yb-f54a5",
    "type": "single",
    "stem": "这个标志是何含义?",
@@ -5761,6 +6387,238 @@
    "chapter": "道路通行条件及通行规定",
    "image": "img/15490900.jpg",
    "source": "https://www.ybjk.com/tiku/ebffc.htm"
+  },
+  {
+   "id": "yb-b89d4",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "行人",
+    "禁止行人进入",
+    "注意行人",
+    "人行横道"
+   ],
+   "answer": 1,
+   "explanation": "红圈加斜杠，行人被划掉，这就是禁止行人进入。根据国家标准《道路交通标志和标线 第 2 部分：道路交通标志》（GB 5768.2-2022），图中标志为禁止行人进入，表示禁止行人进入该路段。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-b89d4.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/b89d4.htm"
+  },
+  {
+   "id": "yb-ea04a",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "禁止非机动车进入",
+    "禁止电动自行车进入",
+    "禁止摩托车驶入",
+    "禁止三轮车进入"
+   ],
+   "answer": 2,
+   "explanation": "图中标志为禁止摩托车驶入标志：红圈内有带有骑手、具有油箱和排气管特征的跨骑式两轮摩托车图案。\n【易错区分】禁止电动自行车：图案通常为踏板式两轮车，无骑手。禁止非机动车：图案为自行车（有脚踏板）。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-ea04a.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/ea04a.htm"
+  },
+  {
+   "id": "yb-c5bb8",
+   "type": "judge",
+   "stem": "这个标志的含义是禁止电动自行车进入。",
+   "options": [
+    "正确",
+    "错误"
+   ],
+   "answer": 0,
+   "explanation": "根据国标《道路交通标志和标线》（GB 5768），该标志为“禁止电动自行车进入”的禁令标志。红色圆圈表示禁令，图案中带有电池箱且保留脚踏结构的自行车，是电动自行车的专属标识。因此，该标志的含义为禁止电动自行车驶入，题干表述正确。\n【拓展知识-易混标志】普通自行车图案（无电池组）→ 禁止非机动车进入；带电池箱 + 脚踏的自行车 → 禁止电动自行车进入；无脚踏、带骑手的摩托车 → 禁止摩托车驶入。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-c5bb8.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/c5bb8.htm"
+  },
+  {
+   "id": "yb-d1089",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "禁止载货汽车驶入",
+    "禁止拖拉机驶入",
+    "禁止三轮汽车、低速货车驶入",
+    "禁止摩托车驶入"
+   ],
+   "answer": 1,
+   "explanation": "红圈加斜杠，拖拉机被划掉，这就是禁止拖拉机驶入。根据国家标准《道路交通标志和标线 第 2 部分：道路交通标志》（GB 5768.2-2022），图中标志为禁止拖拉机驶入，表示该路段严禁拖拉机通行。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-d1089.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/d1089.htm"
+  },
+  {
+   "id": "yb-a55ef",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "禁止摩托车驶入",
+    "禁止非机动车进入",
+    "禁止三轮车驶入",
+    "禁止电动自行车进入"
+   ],
+   "answer": 2,
+   "explanation": "红圈加斜杠，三轮车被划掉，这就是禁止三轮车驶入。根据国家标准《道路交通标志和标线 第 2 部分：道路交通标志》（GB 5768.2-2022），图中标志为禁止三轮车驶入，表示该路段严禁三轮车通行。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-a55ef.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/a55ef.htm"
+  },
+  {
+   "id": "yb-b3d5e",
+   "type": "judge",
+   "stem": "红圈内标线表示非机动车道。",
+   "options": [
+    "正确",
+    "错误"
+   ],
+   "answer": 0,
+   "explanation": "题干表述正确，红圈内的标线为非机动车道线：标线内标注有非机动车图案+“非机动车”文字（镜像显示，从驾驶人视角可正常识别），明确划分出专供非机动车行驶的专用车道。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-b3d5e.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/b3d5e.htm"
+  },
+  {
+   "id": "yb-a577a",
+   "type": "single",
+   "stem": "路中心双黄实线是何含义？",
+   "options": [
+    "可跨越对向车道分界线",
+    "禁止跨越对向车行道分界线",
+    "双侧可跨越同向车道分界线",
+    "单向行驶车道分界线"
+   ],
+   "answer": 1,
+   "explanation": "图中道路中心的双黄实线，是禁止跨越对向车行道分界线。根据《道路交通标志和标线》（GB 5768），双黄实线的作用是分隔对向行驶的车流，严禁车辆跨越、压线或越线行驶，包括超车、转弯、掉头等操作。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-a577a.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/a577a.htm"
+  },
+  {
+   "id": "yb-a7f9a",
+   "type": "single",
+   "stem": "路口最前端的双白实线是什么含义？",
+   "options": [
+    "等候放行线",
+    "停车让行线",
+    "减速让行线",
+    "左弯待转线"
+   ],
+   "answer": 1,
+   "explanation": "图中路口最前端的双白实线，配合右侧的“停”字标志，是停车让行线。根据《道路交通标志和标线》（GB 5768），停车让行线为双白实线，设置在设有停车让行标志的路口，车辆必须在此线前停车瞭望，确认安全后再通行。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-a7f9a.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/a7f9a.htm"
+  },
+  {
+   "id": "yb-da00a",
+   "type": "single",
+   "stem": "图中地面标记表示什么？",
+   "options": [
+    "交叉路口预告",
+    "人行横道预告",
+    "减速让行预告",
+    "停车让行预告"
+   ],
+   "answer": 1,
+   "explanation": "白色菱形 = 人行横道预告 → 提示前方有人行横道。路面菱形块，预告人行横道。红圈里的白色菱形地面标线，是人行横道预告标线，用来提醒驾驶员前方即将有人行横道，需提前减速、注意避让行人。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-da00a.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/da00a.htm"
+  },
+  {
+   "id": "yb-c8362",
+   "type": "single",
+   "stem": "红圈内导向箭头的含义是什么？",
+   "options": [
+    "指示车道",
+    "指示禁行",
+    "指示合流",
+    "指示直行"
+   ],
+   "answer": 3,
+   "explanation": "箭头竖直向上，直行方向不变。红圈内为直行导向箭头：箭头呈竖直向上的标准形态，无任何弯折，是最基础的导向箭头之一。明确指示该车道为直行车道，车辆仅允许沿当前车道直行，不得转弯、变道或掉头。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-c8362.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/c8362.htm"
+  },
+  {
+   "id": "yb-f2c77",
+   "type": "judge",
+   "stem": "红圈内导向箭头表示前方道路可左右转弯。",
+   "options": [
+    "正确",
+    "错误"
+   ],
+   "answer": 0,
+   "explanation": "图中红圈内的路面导向箭头为左右转弯组合箭头，明确指示该车道允许车辆向左或向右转弯，不得直行。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-f2c77.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/f2c77.htm"
+  },
+  {
+   "id": "yb-ecadf",
+   "type": "single",
+   "stem": "路中心黄色虚实线是何含义？",
+   "options": [
+    "实线一侧禁止越线",
+    "虚线一侧禁止越线",
+    "实线一侧允许越线",
+    "两侧均可越线行驶"
+   ],
+   "answer": 0,
+   "explanation": "黄线虚实看两边，实线禁跨虚可越。根据《道路交通标志和标线》（GB 5768.3）规定，黄色虚实线由一条黄色实线和一条黄色虚线组成。实线一侧禁止车辆越线行驶，虚线一侧在确保安全的前提下允许车辆越线超车或向左转弯。因此“实线一侧禁止越线”表述正确。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-ecadf.jpg",
+   "imageNote": "AI 生成示意图",
+   "source": "https://www.ybjk.com/tiku/ecadf.htm"
+  },
+  {
+   "id": "yb-c7c1c",
+   "type": "single",
+   "stem": "以下交通标志中表示最低限速的是？",
+   "options": [
+    "图1",
+    "图2",
+    "图3",
+    "图4"
+   ],
+   "answer": 1,
+   "explanation": "根据国标《道路交通标志和标线 第 2 部分：道路交通标志》（GB 5768.2-2022），图中四个标志分别为：\n图1（红圈 10t）：是限制质量标志；\n图2（蓝底 60）：是最低限速标志；\n图3（红圈 60）：是最高限速标志；\n图4（黑圈黑线 40 斜杠）：是解除限速标志。\n因此，表示最低限速的是：图2。",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-c7c1c.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/c7c1c.htm"
+  },
+  {
+   "id": "yb-f3af5",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "低速行驶",
+    "注意行人",
+    "行人先行",
+    "仅供行人步行"
+   ],
+   "answer": 3,
+   "explanation": "暂无试题分析\n\n等着您来分析哦:)",
+   "chapter": "道路通行条件及通行规定",
+   "image": "img/yb-f3af5.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/f3af5.htm"
   },
   {
    "id": "yb-ebe9b",
@@ -7628,6 +8486,23 @@
    "explanation": "电动汽车行驶中，遭受剧烈撞击是电池起火最主要的原因。撞击可能导致电池包变形、内部短路、热失控，进而引发火灾。",
    "chapter": "浙江地方题",
    "source": "https://www.ybjk.com/tiku/a947d.htm"
+  },
+  {
+   "id": "yb-fc966",
+   "type": "single",
+   "stem": "这个标志是何含义？",
+   "options": [
+    "30米减速行驶路段",
+    "区域解除时速30公里限制",
+    "最低时速30公里",
+    "区域限制最高时速30公里"
+   ],
+   "answer": 3,
+   "explanation": "这个标志是区域限制最高时速30公里的指示标志，代表在该区域内，车辆行驶最高时速不得超过30公里。",
+   "chapter": "浙江地方题",
+   "image": "img/yb-fc966.png",
+   "imageNote": "示意图（Wikimedia GB 5768 标志）",
+   "source": "https://www.ybjk.com/tiku/fc966.htm"
   },
   {
    "id": "yb-ebae9",
