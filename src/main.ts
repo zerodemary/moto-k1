@@ -72,7 +72,7 @@ function fmtDate(t: number) {
 function questionHTML(q: Question, idx: number, total: number, extra = '') {
   return `<div class="q-meta"><span><span class="tag">${q.type === 'judge' ? '判断题' : '单选题'}</span>${esc(q.chapter)}</span><span>${idx + 1} / ${total}</span></div>
     <p class="stem">${esc(q.stem)}</p>
-    ${q.image ? `<img class="q-img" src="./data/${esc(q.image)}" alt="题目配图" loading="eager" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'sub',textContent:'（图片加载失败）'}))">` : ''}
+    ${q.image ? `<img class="q-img" src="./data/${esc(q.image)}" alt="题目配图" loading="eager" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'sub',textContent:'（图片加载失败）'}))">${q.imageNote ? `<p class="q-img-note" title="${esc(q.imageNote)}">示意图</p>` : ''}` : ''}
     <div class="opts">${q.options.map((o, i) => `<button class="opt" data-opt="${i}"><span class="k">${q.type === 'judge' ? (i === 0 ? '✓' : '✗') : KEYS[i]}</span><span>${esc(o)}</span></button>`).join('')}</div>${extra}`;
 }
 function markOptions(root: HTMLElement, q: Question, choice: number | null, reveal: boolean) {

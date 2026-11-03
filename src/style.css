@@ -96,3 +96,5 @@ main { flex: 1; padding: 16px 16px calc(24px + var(--safe-b)); }
 .segment button { flex: 1; border: 0; background: none; padding: 6px; border-radius: 8px; cursor: pointer; font-size: 14px; color: var(--muted); }
 .segment button.on { background: var(--brand); color: #fff; }
 .offline { font-size: 12px; text-align: center; padding: 4px; background: var(--brand-soft); color: var(--brand); }
+
+.q-img-note { text-align: center; color: var(--muted); font-size: 11px; margin: -12px 0 14px; }
