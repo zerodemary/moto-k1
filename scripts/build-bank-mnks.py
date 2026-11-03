@@ -21,7 +21,7 @@ codes_nat=re.search(r'ExamCodes = "([^"]+)',open(f'{R}/ybjk/codes_sxlx.js').read
 codes_zj=re.search(r'ExamCodes = "([^"]+)',open(f'{R}/codes_jsyks_zj_pcaonly33.js').read()).group(1).split(',')
 FILL=json.load(open(f'{R}/fill/fill.json'))
 out=[];missing_img=[];absent=[];matched_old=set();diff_ans=[];new=[]
-for code in codes_nat+codes_zj:
+for code in codes_nat:  # 浙江 pca=33 题为新能源汽车/地方行业题，非驾照考试题，不收录
     p=f'{R}/ybjk/raw/{code}.json'
     if not os.path.exists(p): absent.append(code); continue
     d=json.load(open(p)); parts=d['tm'].split('<br/>')
@@ -29,14 +29,14 @@ for code in codes_nat+codes_zj:
     else:
         stem=clean(parts[0]); opts=[re.sub(r'^[A-D]、','',clean(x)) for x in parts[1:] if clean(x)]; ans='ABCD'.index(d['da']); typ='single'
     q={'id':'yb-'+code,'type':typ,'stem':stem,'options':opts,'answer':ans,'explanation':expl(code),
-       'chapter':'浙江地方题' if d['pca']==33 else chap(stem)}
+       'chapter':chap(stem)}
     k=key(stem,opts); olds=oldmap.get(k,[])
     if d['tp']:
         olds=[o for o in olds if o.get('image') and o['options'][o['answer']]==opts[ans] and o['id'] not in matched_old]
         olds=olds[:1]
     if olds:
         o=olds[0]; matched_old.update(x['id'] for x in (olds if not d['tp'] else olds[:1]))
-        if d['pca']!=33: q['chapter']=o['chapter']
+        q["chapter"]=o["chapter"]
         if o['options'][o['answer']]!=opts[ans] and not d['tp']: diff_ans.append({'code':code,'stem':stem,'new':opts[ans],'old':o['options'][o['answer']],'oldId':o['id']})
         if d['tp'] and o.get('image'): q['image']=o['image']
         if not q['explanation']: q['explanation']=o['explanation']
@@ -47,7 +47,7 @@ for code in codes_nat+codes_zj:
     q['source']=f"https://www.ybjk.com/tiku/{code}.htm"
     out.append(q)
 oldonly=[q for q in old['questions'] if q['id'] not in matched_old]
-bank={'version':'mnks-2026103002','name':'摩托车科目一（全国题 + 浙江地方题）','source':'元贝驾考/驾校一点通(jsyks) 公开网页 tkdata.mnks.cn，题库版本 2026103002，抓取于 2026-11-03','count':len(out),'questions':out}
+bank={'version':'mnks-2026103002','name':'摩托车科目一（全国题）','source':'元贝驾考/驾校一点通(jsyks) 公开网页 tkdata.mnks.cn，题库版本 2026103002，抓取于 2026-11-03','count':len(out),'questions':out}
 json.dump(bank,open(f'{R}/out/bank.json','w'),ensure_ascii=False,indent=1)
 rep={'national_codes':len(codes_nat),'zj_codes':len(codes_zj),'absent':absent,'in_bank':len(out),'types':collections.Counter(q['type'] for q in out),
  'chapters':collections.Counter(q['chapter'] for q in out),'new_vs_old':len(new),'old_matched':len(matched_old),'old_only':len(oldonly),
